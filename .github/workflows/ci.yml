@@ -24,7 +24,10 @@ jobs:
           terraform -chdir=infra init -backend=false -input=false
           terraform -chdir=infra validate
 
+      # always(): anders stopt een falende terraform-stap de job en zie je de
+      # manifests pas bij je tweede push. Eén run hoort alles te laten zien.
       - name: kubeconform
+        if: always()
         run: |
           curl -sSL -o kubeconform.tar.gz \
             https://github.com/yannh/kubeconform/releases/download/v0.8.0/kubeconform-linux-amd64.tar.gz
