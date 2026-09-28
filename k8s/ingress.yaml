@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: orders-api
+  namespace: wrak
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: orders.wrak.internal
+      http:
+        paths:
+          - path: /
+            backend:
+              service:
+                name: orders-api
+                port:
+                  number: 80
