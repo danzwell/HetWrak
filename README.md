@@ -1,5 +1,10 @@
 # Het Wrak
 
+> **Blue Stack wervingsoefening / hiring exercise.**
+> Dit is oefenmateriaal van [Blue Stack](https://bluestack.nl), geen productiecode. `main` is met opzet kapot. Een pull request met een fix is de inzending; die mergen we niet naar `main`. Zie [CONTRIBUTING.md](CONTRIBUTING.md). Licentie: [MIT](LICENSE).
+>
+> This is practice material from [Blue Stack](https://bluestack.nl), not production code. `main` is intentionally broken. A pull request with a fix is the submission; we do not merge it into `main`. See [CONTRIBUTING.md](CONTRIBUTING.md). License: [MIT](LICENSE).
+
 Dit heeft gedraaid. In productie. Bij een klant.
 
 De vorige ploeg is vertrokken en heeft dit achtergelaten: een orderservice op
@@ -60,6 +65,8 @@ scripts/   check.sh — hetzelfde als de CI
 3. Repareer wat je wilt repareren
 4. Open een PR naar `main`
 
+Zo'n PR is je inzending. We mergen hem niet; `main` blijft met opzet kapot. Zie [CONTRIBUTING.md](CONTRIBUTING.md).
+
 **Deeloplossingen zijn welkom.** Drie goed onderbouwde fixes zijn interessanter
 dan tien commits die alles stilletjes aanpassen. Als je iets ziet maar bewust
 laat liggen — te riskant, te weinig context, hoort bij de klant — schrijf dat op.
@@ -87,4 +94,4 @@ Zin in iets korters eerst? [Blue Stack Levels](https://ashy-smoke-0d0e03b03.2.az
 
 ---
 
-<sub>Blue Stack · Burgemeester Stramanweg 101, Amsterdam · [bluestack.nl](https://bluestack.nl)</sub>
+<sub>Blue Stack · Burgemeester Stramanweg 101, Amsterdam · [bluestack.nl](https://bluestack.nl) · [MIT](LICENSE)</sub>
